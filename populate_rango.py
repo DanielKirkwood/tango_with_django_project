@@ -13,11 +13,11 @@ def populate():
     # through each data structure, and add the data to our models.
 
     python_pages = [
-        {'title': 'Offical Python Tutorial',
+        {'title': 'Official Python Tutorial',
             'url': 'http://docs.python.org/3/tutorial/'},
-        {'title': 'How to Think Like a Computer Scientist',
+        {'title': 'How to Think like a Computer Scientist',
             'url': 'http://www.greenteapress.com/thinkpython/'},
-        {'title': 'Learn Python in 10 Minuates',
+        {'title': 'Learn Python in 10 Minutes',
             'url': 'http://www.korokithankis.net/tutorials/python/'},
     ]
 
@@ -34,7 +34,7 @@ def populate():
     ]
 
     cats = {
-        'Python': {'pages': python_pages, 'views': 128, 'likes': 62},
+        'Python': {'pages': python_pages, 'views': 128, 'likes': 64},
             'Django': {'pages': django_pages, 'views': 64, 'likes': 32},
             'Other Frameworks': {'pages': other_pages, 'views': 32, 'likes': 16}
             }
